@@ -6,7 +6,7 @@ import CartItem, { formatPrice } from "./CartItem.tsx";
 import Button from "../ui/Button.tsx";
 
 const CHECKOUT_URL =
-  "https://bravtexfashionstore.vtexcommercestable.com.br/checkout";
+  "https://actxnow.myvtex.com/checkout";
 
 function Coupon() {
   const { cart, loading, addCouponsToCart } = useCart();
